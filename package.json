@@ -1,0 +1,22 @@
+{
+  "name": "ts-route-expression",
+  "version": "0.0.0",
+  "description": "TypeScript-friendly route expressions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/soul-codes/ts-route-expressions",
+  "author": "soul-codes <reach.soul.codes@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "rm -rf dist && tsc",
+    "release": "release-it",
+    "test": "jest",
+    "test:debug": "node --inspect-brk node_modules/jest/bin/jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0",
+    "release-it": "^7.4.7",
+    "ts-jest": "^23.1.3"
+  }
+}
