@@ -5,5 +5,5 @@ export const r = Object.assign(routeFragments, {
   param: routeCapture
 });
 
-export { default as parse } from "./parser";
+export { default as parse, RouteExpressionResult } from "./parser";
 export { default as assemble } from "./assembler";
